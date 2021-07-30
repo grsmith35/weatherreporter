@@ -13,23 +13,57 @@
 }
 
 .header h1 {
-    size: 36px;
+    size: 40px;
     color: rgb(64, 138, 113);
+    padding: 4px 10px;
 }
 
-.header nav {
+.header nav ul {
     margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header a {
+    color: rgba(24, 56, 45, .5);
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    font-size: 18px;
+    align-items: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header a:hover {
+    background-color: darkblue;
+    color: darkgray;
+}
+
+
+.hero {
+    background-color: rgb(104, 104, 207);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.header a {
-    color: rgb(24, 56, 45);
-    text-decoration: none;
+.hero img {
+    margin: 10px 10px;
+
 }
 
+.hero h2 {
+    font-size: 26px;
+    color: chartreuse;
 
-.hero {
-    background-image: url(./images/background.jpg);
+}
+
+.hero div p {
+    color: azure;
 }
