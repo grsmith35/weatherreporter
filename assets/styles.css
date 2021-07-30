@@ -28,7 +28,8 @@
 }
 
 .header a {
-    color: rgba(24, 56, 45, .5);
+    color: rgba(14, 87, 62, 0.5);
+    font-weight: bold;
     text-decoration: none;
     padding: 0 15px 0 15px;
     font-size: 18px;
@@ -43,6 +44,7 @@
 .header a:hover {
     background-color: darkblue;
     color: darkgray;
+    box-shadow: 0 0 10px black;
 }
 /*End the header*/
 
@@ -56,6 +58,10 @@
 
 .hero img {
     margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
 
 }
 
@@ -69,6 +75,8 @@
     color: azure;
     font-size: 20px;
     padding: 10px 0 10px 0;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-me {
@@ -89,3 +97,44 @@
 }
 
 /*end the hero*/
+
+/*My work section*/
+
+.my-work {
+    background-color: beige;
+}
+
+.work-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-work h2 {
+    font-size: 26px;
+    color: chartreuse;
+    padding: 10px 10px;
+    justify-content: center;
+    display: block;
+}
+
+.my-work div {
+    border: 1px solid black;
+    border-radius: 15%;
+    margin: 5px 10px;
+    flex-basis: 30%;
+}
+
+.head-liner {
+    flex-basis: 60%;
+    height: 40px;
+    display: block;
+    background-image: url(./images/background.jpg);
+}
+
+/*My work end*/
+
+/*Contact me start*/
+
+
+/*Contact me end*/
