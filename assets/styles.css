@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Start the header*/
+.header {
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header h1 {
+    size: 36px;
+    color: rgb(64, 138, 113);
+}
+
+.header nav {
+    margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header a {
+    color: rgb(24, 56, 45);
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url(./images/background.jpg);
+}
