@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Reporter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Weather header -->
+    <div>
+        <h1 class="bg-primary text-center">Weather Dashboard</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <h3>Search for a City:</h3>
+                </div>
+                <div class="row input-groupS">
+                    <input type="text" class="form-control" placeholder="San Diego" id="inputBox">
+                </div>
+                <div id="buttons">
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="search">Search</button>
+                    </div>
+                    <hr class="mt-1 mb-1">
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="austin">Austin</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="chicago">Chicago</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="new york">New York</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="orlando">Orlando</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="san francisco">San Francisco</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="seattle">Seattle</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="denver">Denver</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-secondary mt-1 btn-block" id="atlanta">Atlanta</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row border-dark">
+                    <div class="col">
+                        <div class="row ml-2" id="locationHolder"></div>
+                        <br>
+                        <div class="row ml-2" id="tempHolder"></div>
+                        <br>
+                        <div class="row ml-2" id="windHolder"></div>
+                        <br>
+                        <div class="row ml-2" id="humidityHolder"></div>
+                        <br>
+                        <div class="row ml-1" id="uvindexHolder"></div>
+                    </div>
+                </div>
+                <div class="row ml-2">
+                    <h4>5-Day Forecast:</h4>
+                </div>
+                <div class="row ml-2" id="days">
+                    <!-- <div class="col-md-2">
+                        Day 1
+                    </div>
+                    <div class="col-md-2">
+                        Day 2
+                    </div>
+                    <div class="col-md-2">
+                        Day 3
+                    </div>
+                    <div class="col-md-2">
+                        Day 4
+                    </div>
+                    <div class="col-md-2">
+                        Day 5
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
